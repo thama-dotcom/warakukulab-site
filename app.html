@@ -64,6 +64,10 @@
   <p class="note">2026年4月1日時点の法令で作っています。試験を実施する団体とは関係のない、非公式の学習教材です。問題はすべて独自に作成したもので、実際の試験問題は含みません。Android 版は準備中です。</p>
   <a class="back" href="/cba">← ビル経営管理士 試験対策のページへ</a>
 </div>
-<script>document.getElementById("go").href = window.APP_GO;</script>
+<script>
+  document.getElementById("go").href = window.APP_GO;
+  // Android はアプリが未公開なので、押すと note の問題集セットが開く(行き先は /go 側で分けている。2026-11-06)
+  if (/Android/.test(navigator.userAgent)) document.getElementById("go").innerHTML = "問題集(note)を見る<small>Android版アプリは準備中です</small>";
+</script>
 </body>
 </html>
