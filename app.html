@@ -61,13 +61,13 @@
       <li>3科目・各45分の本番形式の模擬試験</li>
     </ul>
   </div>
-  <p class="note">2026年4月1日時点の法令で作っています。試験を実施する団体とは関係のない、非公式の学習教材です。問題はすべて独自に作成したもので、実際の試験問題は含みません。Android 版は準備中です。</p>
+  <p class="note">2026年4月1日時点の法令で作っています。試験を実施する団体とは関係のない、非公式の学習教材です。問題はすべて独自に作成したもので、実際の試験問題は含みません。iPhone は App Store、Android は Google Play で配信しています。</p>
   <a class="back" href="/cba">← ビル経営管理士 試験対策のページへ</a>
 </div>
 <script>
   document.getElementById("go").href = window.APP_GO;
-  // Android はアプリが未公開なので、押すと note の問題集セットが開く(行き先は /go 側で分けている。2026-11-06)
-  if (/Android/.test(navigator.userAgent)) document.getElementById("go").innerHTML = "問題集(note)を見る<small>Android版アプリは準備中です</small>";
+  // Android は Google Play へ(行き先は /go 側で分けている。2026-11-06 Play で公開)
+  if (/Android/.test(navigator.userAgent)) document.getElementById("go").innerHTML = "Google Play で見る<small>全9科目の第1章は無料</small>";
 </script>
 </body>
 </html>
