@@ -15,7 +15,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8613c'/%3E%3Ctext x='32' y='45' font-family='Helvetica,Arial' font-size='38' font-weight='700' fill='%23fff' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
 <script>
   // note などからのリンクは ?s=経路 を付けてここへ来る。押された数を経路ごとに数えてから
-  // iPhone は App Store、Android は Google Play へ(2026-11-16。iOS は審査中のため、公開までは App Store が開けない。受け口は土地家屋調査士専用の chousashi-telemetry)
+  // iPhone は App Store、Android は Google Play へ(2026-11-16。iOS は 2026-11-17 03:32 公開。受け口は土地家屋調査士専用の chousashi-telemetry)
   (function(){
     var GO = "https://chousashi-telemetry.omegamon-watch.workers.dev/go";
     var m = location.search.match(/[?&]s=([a-z0-9_-]{1,40})/i);
@@ -28,11 +28,11 @@
  "@context": "https://schema.org",
  "@type": "MobileApplication",
  "name": "土地家屋調査士 過去問 2027｜択一 全肢解説",
- "operatingSystem": "Android",
+ "operatingSystem": "iOS, Android",
  "applicationCategory": "EducationalApplication",
  "inLanguage": "ja",
  "url": "https://warakukulab.com/chousashi",
- "downloadUrl": ["https://play.google.com/store/apps/details?id=com.warakukulab.chousashi"],
+ "downloadUrl": ["https://apps.apple.com/jp/app/id6834993286", "https://play.google.com/store/apps/details?id=com.warakukulab.chousashi"],
  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY", "description": "ダウンロード無料。全部の解禁はアプリ内の買い切り"},
  "publisher": {"@type": "Organization", "name": "WARAKUKU LAB", "url": "https://warakukulab.com/"},
  "description": "土地家屋調査士試験(筆記試験 午後の部の多肢択一式)の学習アプリ。過去問5年分100問・肢別の一問一答499問・要点68節・音声講義68本。"
@@ -76,7 +76,7 @@
       <li>年度ごとに、本番と同じ20問・5肢択一で解き、その年の基準点と比べられる</li>
     </ul>
   </div>
-  <p class="note">試験を実施する法務省とは関係のない、非公式の学習教材です。過去問の出典は法務省ウェブサイト(試験問題を加工して作成)。各科目の最初の約1割の節と、令和7年度の過去問1回分(20問)は無料で使えます。iPhone版はApp Storeの審査中です(公開までボタンからApp Storeのページが開かない場合があります)。</p>
+  <p class="note">試験を実施する法務省とは関係のない、非公式の学習教材です。過去問の出典は法務省ウェブサイト(試験問題を加工して作成)。各科目の最初の約1割の節と、令和7年度の過去問1回分(20問)は無料で使えます。</p>
 </div>
 <script>
   document.getElementById("go").href = window.APP_GO;
