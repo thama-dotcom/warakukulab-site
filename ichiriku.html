@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一陸特 過去問アプリ 2027｜第一級陸上特殊無線技士｜Warakuku Lab</title>
+<meta name="description" content="一陸特(第一級陸上特殊無線技士)の学習アプリ。日本無線協会が公開した令和8年2月期・6月期・10月期の過去問6回216問(全問解説・計算は検算つき)、本番と同じ3時間の模試、要点94節、一問一答917問、図解22本。式の多い節はふつうの言葉の説明と記号の読み方つき。令和8年10月期Aの1回分と各科目の約1割は無料。">
+<link rel="canonical" href="https://warakukulab.com/ichiriku">
+<meta property="og:type" content="website">
+<meta property="og:title" content="一陸特 過去問アプリ 2027｜第一級陸上特殊無線技士">
+<meta property="og:description" content="過去問6回216問・本番と同じ3時間の模試・要点94節・一問一答917問・図解。式はまず言葉で説明、記号の読み方つき。無線工学と法規(電波法令)。">
+<meta property="og:url" content="https://warakukulab.com/ichiriku">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#fbfaf7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8613c'/%3E%3Ctext x='32' y='45' font-family='Helvetica,Arial' font-size='38' font-weight='700' fill='%23fff' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+<script>
+  // note などからのリンクは ?s=経路 を付けてここへ来る。押された数を経路ごとに数えてから App Store へ(受け口は一陸特専用の ichiriku-telemetry)。
+  // 2026-11-21: iOS は公開済み(11-19)。Android は 11-20 に Play の審査へ送ったところで、公開まではこのページに留める(Play のページがまだ無いため)
+  (function(){
+    var GO = "https://ichiriku-telemetry.omegamon-watch.workers.dev/go";
+    var m = location.search.match(/[?&]s=([a-z0-9_-]{1,40})/i);
+    window.APP_GO = GO + "?s=" + (m ? m[1].toLowerCase() : "site");
+    window.IS_ANDROID = /Android/.test(navigator.userAgent);
+    if (m && !window.IS_ANDROID) location.replace(window.APP_GO);
+  })();
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "一陸特とは?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "第一級陸上特殊無線技士の略で、無線従事者の資格の1つです。陸上の無線局の多重無線設備(空中線電力500W以下・30MHz以上)などの技術操作ができます(電波法施行令3条)。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "次の試験はいつ?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "2027年2月10日(水)です。開始は9時30分で、受験者数などにより13時30分からの試験もあります(時刻は受験票で通知)。申請は2026年12月1日〜20日に、日本無線協会のホームページから行います。試験手数料は7,200円です。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "試験の形と合格点は?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "無線工学24問・法規12問を合わせて3時間の多肢選択式(マークシート)。1問5点で、無線工学は120点中75点、法規は60点中40点が合格点です。電卓は使えません(試験案内に「電卓等の計算器具類も使用できません」)。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "どこまで無料?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "令和8年10月期Aの1回分(36問)と、要点・一問一答の各科目の約1割は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日まではリリース記念の500円、2027年1月1日から1,480円です。月額の課金はありません。"
+   }
+  }
+ ]
+}
+</script>
+<style>
+  :root{ --ink:#1b2a38; --sub:#5c6f80; --faint:#94a3b1; --bg:#fbfaf7; --card:#fff; --line:#eae5dc; --accent:#2a8f8a; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic UI",sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.85; font-size:16px; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:560px; margin:0 auto; padding:40px max(16px, env(safe-area-inset-right)) 56px max(16px, env(safe-area-inset-left));}
+  h1{font-size:21px; line-height:1.45; font-weight:800;}
+  .sub{color:var(--sub); font-size:13.5px; margin-top:4px;}
+  .btn{display:block; margin-top:26px; text-align:center; background:var(--ink); color:#fff; text-decoration:none;
+    font-weight:700; font-size:16px; padding:15px 18px; border-radius:999px;}
+  .btn.off{background:#e9e5dc; color:var(--sub);}
+  .btn small{display:block; font-weight:500; font-size:12px; opacity:.8;}
+  .card{margin-top:22px; background:var(--card); border:1px solid var(--line); border-radius:18px; padding:20px 22px;}
+  .card h2{font-size:15px; margin-bottom:6px;}
+  .card ul{padding-left:1.2em; font-size:14.5px; color:#33465a;}
+  .card li{margin:3px 0;}
+  .faq h3{font-size:14.5px; margin-top:14px; line-height:1.6;}
+  .faq h3:first-of-type{margin-top:4px;}
+  .faq p{font-size:14px; color:#33465a; margin-top:2px;}
+  .note{margin-top:22px; font-size:12px; color:var(--faint); line-height:1.8;}
+  .note a{color:var(--sub);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div><h1>一陸特 過去問アプリ 2027｜第一級陸上特殊無線技士</h1><p class="sub">iPhone・Android 向け / Warakuku Lab</p></div>
+  <a class="btn" id="go" href="https://ichiriku-telemetry.omegamon-watch.workers.dev/go?s=site">App Store で見る<small>令和8年10月期Aの過去問36問は無料</small></a>
+  <div class="card">
+    <h2>できること</h2>
+    <ul>
+      <li>日本無線協会が公開している令和8年2月期・6月期・10月期の試験問題(各月A・Bの6回・216問)。全問に解説、計算問題36問は解き方を1手ずつ書き、検算つき</li>
+      <li>本番と同じ形で解ける: 1回=法規12問+無線工学24問・3時間(計算は電卓なしで解く道筋で解説)。採点は1問5点で、無線工学120点中75点・法規60点中40点の合格点と比べる</li>
+      <li>要点94節(無線工学59節・法規35節)。3回のうち1回しか出ていない論点には印つき</li>
+      <li>電気の知識がない人・数式が苦手な人向けに、式の多い23節は、まずふつうの言葉で説明し、ω や λ などの記号の読み方を付けています。最初の節で、ギリシャ文字・対数・dB を確認できます</li>
+      <li>過去問の選択肢・空欄を1つずつ○×で解く一問一答 917問。同じ過去問を、本番と同じ4択・5択でも解けます</li>
+      <li>よく出る論点の図解 22本</li>
+    </ul>
+  </div>
+  <div class="card faq">
+    <h2>よくある質問</h2>
+    <h3>一陸特とは?</h3><p>第一級陸上特殊無線技士の略で、無線従事者の資格の1つです。陸上の無線局の多重無線設備(空中線電力500W以下・30MHz以上)などの技術操作ができます(電波法施行令3条)。</p>
+    <h3>次の試験はいつ?</h3><p>2027年2月10日(水)です。開始は9時30分で、受験者数などにより13時30分からの試験もあります(時刻は受験票で通知)。申請は2026年12月1日〜20日に、日本無線協会のホームページから行います。試験手数料は7,200円です。</p>
+    <h3>試験の形と合格点は?</h3><p>無線工学24問・法規12問を合わせて3時間の多肢選択式(マークシート)。1問5点で、無線工学は120点中75点、法規は60点中40点が合格点です。電卓は使えません(試験案内に「電卓等の計算器具類も使用できません」)。</p>
+    <h3>どこまで無料?</h3><p>令和8年10月期Aの1回分(36問)と、要点・一問一答の各科目の約1割は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日まではリリース記念の500円、2027年1月1日から1,480円です。月額の課金はありません。</p>
+  </div>
+  <p class="note">試験を実施する公益財団法人日本無線協会・総務省とは関係のない、非公式の学習教材です。過去問の出典は日本無線協会「<a href="https://www.nichimu.or.jp/kshiken/siken/index.html">試験問題と解答</a>」(第一級陸上特殊無線技士 令和8年2月期・6月期・10月期の無線工学・法規)。問題文は当アプリが書き起こし、解説は当アプリが独自に作成しています。試験の日程・手数料・電卓の扱いは日本無線協会の令和8年度の試験案内(2026年11月18日に確認)によります。最新の情報は日本無線協会の発表で確かめてください。</p>
+</div>
+<script>
+  var g = document.getElementById("go"); g.href = window.APP_GO;
+  if (window.IS_ANDROID) { g.removeAttribute("href"); g.className = "btn off"; g.innerHTML = "Android 版は Google Play の審査中です<small>公開したら、このページから Google Play へ進めます</small>"; }
+</script>
+</body>
+</html>
