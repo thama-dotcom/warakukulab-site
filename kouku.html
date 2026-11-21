@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>航空無線通信士 過去問アプリ｜航空通｜Warakuku Lab</title>
+<meta name="description" content="航空無線通信士(航空通)の学習アプリ。日本無線協会が公開した令和8年2月期・8月期の法規・無線工学の過去問68問(全問解説)、図でつかむ要点78節、一問一答571問。要点9節と令和8年2月期の法規20問は無料。">
+<link rel="canonical" href="https://warakukulab.com/kouku">
+<meta property="og:type" content="website">
+<meta property="og:title" content="航空無線通信士 過去問アプリ｜航空通">
+<meta property="og:description" content="過去問68問・要点78節・一問一答571問。どの要点も先に図、あとに短い言葉。法規と無線工学。">
+<meta property="og:url" content="https://warakukulab.com/kouku">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#fbfaf7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8613c'/%3E%3Ctext x='32' y='45' font-family='Helvetica,Arial' font-size='38' font-weight='700' fill='%23fff' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+<script>
+  // note などからのリンクは ?s=経路 を付けてここへ来る。押された数を経路ごとに数えてから
+  // iPhone は App Store、Android は Google Play へ(2026-11-21。1.0.0 は両OSとも 11-21 公開。受け口は航空無線通信士専用の kouku-telemetry)
+  (function(){
+    var GO = "https://kouku-telemetry.omegamon-watch.workers.dev/go";
+    var m = location.search.match(/[?&]s=([a-z0-9_-]{1,40})/i);
+    window.APP_GO = GO + "?s=" + (m ? m[1].toLowerCase() : "site");
+    if (m) location.replace(window.APP_GO);
+  })();
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "MobileApplication",
+ "name": "航空無線通信士 過去問｜航空通",
+ "operatingSystem": "iOS, Android",
+ "applicationCategory": "EducationalApplication",
+ "inLanguage": "ja",
+ "url": "https://warakukulab.com/kouku",
+ "downloadUrl": ["https://apps.apple.com/jp/app/id6836359676", "https://play.google.com/store/apps/details?id=com.warakukulab.kouku"],
+ "offers": {"@type": "Offer", "price": "0", "priceCurrency": "JPY", "description": "ダウンロード無料。全部の解禁はアプリ内の買い切り"},
+ "publisher": {"@type": "Organization", "name": "WARAKUKU LAB", "url": "https://warakukulab.com/"},
+ "description": "航空無線通信士の国家試験(法規・無線工学)の学習アプリ。過去問68問・図でつかむ要点78節・一問一答571問・音声講義78本。"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "航空無線通信士とは?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "無線従事者の資格の1つで、航空機に開設する無線局や航空局の無線設備の操作ができます。航空会社のパイロットを目指す人が受けることの多い資格です。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "次の試験はいつ?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "筆記は2027年2月25日(木)、電気通信術は2月26日(金)です(日本無線協会の令和8年度国家試験実施計画)。申請は試験の2か月前の1日〜20日で、日本無線協会のホームページから行います。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "試験の形と合格点は?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "無線工学は14問・90分で70点満点中49点、法規は20問・90分で100点満点中70点が合格点です。ほかに英語と電気通信術の科目があります。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "アプリに入っている科目は?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "法規と無線工学です。英語と電気通信術は入っていません(欧文通話表は法規の要点に載せています)。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "どこまで無料?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "要点9節(法規5節・無線工学4節)とその節の一問一答、令和8年2月期の法規の過去問20問は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日までは500円、2027年1月1日から1,480円です。月額の課金はありません。"
+   }
+  }
+ ]
+}
+</script>
+<style>
+  :root{ --ink:#1b2a38; --sub:#5c6f80; --faint:#94a3b1; --bg:#fbfaf7; --card:#fff; --line:#eae5dc; --accent:#2a8f8a; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic UI",sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.85; font-size:16px; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:560px; margin:0 auto; padding:40px max(16px, env(safe-area-inset-right)) 56px max(16px, env(safe-area-inset-left));}
+  h1{font-size:21px; line-height:1.45; font-weight:800;}
+  .sub{color:var(--sub); font-size:13.5px; margin-top:4px;}
+  .btn{display:block; margin-top:26px; text-align:center; background:var(--ink); color:#fff; text-decoration:none;
+    font-weight:700; font-size:16px; padding:15px 18px; border-radius:999px;}
+  .btn.off{background:#e9e5dc; color:var(--sub);}
+  .btn small{display:block; font-weight:500; font-size:12px; opacity:.8;}
+  .card{margin-top:22px; background:var(--card); border:1px solid var(--line); border-radius:18px; padding:20px 22px;}
+  .card h2{font-size:15px; margin-bottom:6px;}
+  .card ul{padding-left:1.2em; font-size:14.5px; color:#33465a;}
+  .card li{margin:3px 0;}
+  .faq h3{font-size:14.5px; margin-top:14px; line-height:1.6;}
+  .faq h3:first-of-type{margin-top:4px;}
+  .faq p{font-size:14px; color:#33465a; margin-top:2px;}
+  .note{margin-top:22px; font-size:12px; color:var(--faint); line-height:1.8;}
+  .note a{color:var(--sub);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div><h1>航空無線通信士 過去問アプリ｜航空通</h1><p class="sub">iPhone・Android 向け / Warakuku Lab</p></div>
+  <a class="btn" id="go" href="https://kouku-telemetry.omegamon-watch.workers.dev/go?s=site">App Store で見る<small>令和8年2月期の法規の過去問20問は無料</small></a>
+  <div class="card">
+    <h2>できること</h2>
+    <ul>
+      <li>日本無線協会が公開している令和8年2月期・8月期の法規(各20問)と無線工学(各14問)の過去問68問。全問に解説</li>
+      <li>本番と同じ形式で、回と科目を選んで解ける。終わったら採点し、全問を見直せる</li>
+      <li>図でつかむ要点78節(法規41節・無線工学37節)。どの要点も先に図、あとに短い言葉</li>
+      <li>ひっかけは、×(誤りの言い方)と○(正しい言い方)の1組で見せる。計算は途中の式つき</li>
+      <li>要点の節ごとの一問一答571問。解いたらすぐ解説、解説から関連する要点へ移れる</li>
+      <li>先生と生徒の会話の音声講義78本。要点の節ごとに、耳で聞いて復習できる</li>
+    </ul>
+  </div>
+  <div class="card faq">
+    <h2>よくある質問</h2>
+    <h3>航空無線通信士とは?</h3><p>無線従事者の資格の1つで、航空機に開設する無線局や航空局の無線設備の操作ができます。航空会社のパイロットを目指す人が受けることの多い資格です。</p>
+    <h3>次の試験はいつ?</h3><p>筆記は2027年2月25日(木)、電気通信術は2月26日(金)です(日本無線協会の令和8年度国家試験実施計画)。申請は試験の2か月前の1日〜20日で、日本無線協会のホームページから行います。</p>
+    <h3>試験の形と合格点は?</h3><p>無線工学は14問・90分で70点満点中49点、法規は20問・90分で100点満点中70点が合格点です。ほかに英語と電気通信術の科目があります。</p>
+    <h3>アプリに入っている科目は?</h3><p>法規と無線工学です。英語と電気通信術は入っていません(欧文通話表は法規の要点に載せています)。</p>
+    <h3>どこまで無料?</h3><p>要点9節(法規5節・無線工学4節)とその節の一問一答、令和8年2月期の法規の過去問20問は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日までは500円、2027年1月1日から1,480円です。月額の課金はありません。</p>
+  </div>
+  <p class="note">試験を実施する公益財団法人日本無線協会・総務省とは関係のない、非公式の学習教材です。過去問の出典は日本無線協会「<a href="https://www.nichimu.or.jp/kshiken/siken/index.html">試験問題と解答</a>」(航空無線通信士 令和8年2月期・8月期の無線工学・法規)。問題文は当アプリが書き起こし、解説は当アプリが独自に作成しています。試験日・形式は日本無線協会の令和8年度の実施計画(2026年11月18日に確認)によります。最新の情報は日本無線協会の発表で確かめてください。</p>
+</div>
+<script>
+  document.getElementById("go").href = window.APP_GO;
+  if (/Android/.test(navigator.userAgent)) document.getElementById("go").innerHTML = "Google Play で見る<small>令和8年2月期の法規の過去問20問は無料</small>";
+</script>
+</body>
+</html>
