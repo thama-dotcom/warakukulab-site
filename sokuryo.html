@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>測量士補 過去問アプリ 2027｜計算問題・図解・音声講義｜Warakuku Lab</title>
+<meta name="description" content="測量士補の学習アプリ。国土地理院が公開した令和4〜8年の過去問140問(全問解説・本番と同じ形式)、図でつかむ要点56節、音声講義56本、一問一答485問。要点6節と令和8年の過去問28問は無料。">
+<link rel="canonical" href="https://warakukulab.com/sokuryo">
+<meta property="og:type" content="website">
+<meta property="og:title" content="測量士補 過去問アプリ 2027｜計算問題・図解・音声講義">
+<meta property="og:description" content="過去問140問・要点56節・音声講義56本・一問一答485問。どの要点も先に図、電卓なしの計算は途中の式を1行ずつ。">
+<meta property="og:url" content="https://warakukulab.com/sokuryo">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#fbfaf7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8613c'/%3E%3Ctext x='32' y='45' font-family='Helvetica,Arial' font-size='38' font-weight='700' fill='%23fff' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+<script>
+  // note などからのリンクは ?s=経路 を付けてここへ来る。押された数を経路ごとに数えてから
+  // iPhone は App Store へ(2026-11-21 iOS 公開。受け口は測量士補専用の sokuryo-telemetry)。
+  // Android は Play の審査中(11-21)なので、ANDROID_READY を true にするまではストアへ送らずページに残す(Play のページがまだ 404 のため)
+  (function(){
+    var GO = "https://sokuryo-telemetry.omegamon-watch.workers.dev/go";
+    window.ANDROID_READY = false;
+    var m = location.search.match(/[?&]s=([a-z0-9_-]{1,40})/i);
+    window.APP_GO = GO + "?s=" + (m ? m[1].toLowerCase() : "site");
+    if (m && (window.ANDROID_READY || !/Android/.test(navigator.userAgent))) location.replace(window.APP_GO);
+  })();
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "測量士補とは?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "測量法に基づく国家資格で、測量士が作った計画に従って測量をする技術者の資格です。試験は国土地理院が年1回行います。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "次の試験はいつ?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "令和9年(2027年)の日程はまだ発表されていません(2026年11月21日時点)。過去5回はすべて5月の第3日曜日で、令和8年の申込は1月5日〜22日でした。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "試験の形と合格点は?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "五肢択一28問・3時間(13時30分〜16時30分)。1問25点の700点満点で、450点以上(18問正解)が合格です(令和8年の受験案内)。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "どこまで無料?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "要点6節とその節の一問一答・音声講義、令和8年の過去問28問は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日までは500円、2027年1月1日から1,480円です。月額の課金はありません。"
+   }
+  }
+ ]
+}
+</script>
+<style>
+  :root{ --ink:#1b2a38; --sub:#5c6f80; --faint:#94a3b1; --bg:#fbfaf7; --card:#fff; --line:#eae5dc; --accent:#2a8f8a; }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP","Yu Gothic UI",sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.85; font-size:16px; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:560px; margin:0 auto; padding:40px max(16px, env(safe-area-inset-right)) 56px max(16px, env(safe-area-inset-left));}
+  h1{font-size:21px; line-height:1.45; font-weight:800;}
+  .sub{color:var(--sub); font-size:13.5px; margin-top:4px;}
+  .btn{display:block; margin-top:26px; text-align:center; background:var(--ink); color:#fff; text-decoration:none;
+    font-weight:700; font-size:16px; padding:15px 18px; border-radius:999px;}
+  .btn.off{background:#e9e5dc; color:var(--sub);}
+  .btn small{display:block; font-weight:500; font-size:12px; opacity:.8;}
+  .card{margin-top:22px; background:var(--card); border:1px solid var(--line); border-radius:18px; padding:20px 22px;}
+  .card h2{font-size:15px; margin-bottom:6px;}
+  .card ul{padding-left:1.2em; font-size:14.5px; color:#33465a;}
+  .card li{margin:3px 0;}
+  .faq h3{font-size:14.5px; margin-top:14px; line-height:1.6;}
+  .faq h3:first-of-type{margin-top:4px;}
+  .faq p{font-size:14px; color:#33465a; margin-top:2px;}
+  .note{margin-top:22px; font-size:12px; color:var(--faint); line-height:1.8;}
+  .note a{color:var(--sub);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div><h1>測量士補 過去問アプリ 2027｜計算問題・図解・音声講義</h1><p class="sub">iPhone・Android 向け / Warakuku Lab</p></div>
+  <a class="btn" id="go" href="https://sokuryo-telemetry.omegamon-watch.workers.dev/go?s=site">App Store で見る<small>令和8年の過去問28問は無料</small></a>
+  <div class="card">
+    <h2>できること</h2>
+    <ul>
+      <li>国土地理院が公開している令和4〜8年の過去問140問(1年28問・五肢択一)。全問に解説</li>
+      <li>本番と同じ形式・同じ配点で、年を選んで解ける。関数の値が要る問題は、巻末の関数表を見ながら解ける</li>
+      <li>図でつかむ要点56節(法規・基礎・測地測量・測図測量・応用測量)。どの要点も先に図、あとに短い言葉</li>
+      <li>電卓なしの計算は、途中の式を1行ずつ</li>
+      <li>音声講義56本(要点の節ごとに1本)と、一問一答485問(全問に解説)</li>
+    </ul>
+  </div>
+  <div class="card faq">
+    <h2>よくある質問</h2>
+    <h3>測量士補とは?</h3><p>測量法に基づく国家資格で、測量士が作った計画に従って測量をする技術者の資格です。試験は国土地理院が年1回行います。</p>
+    <h3>次の試験はいつ?</h3><p>令和9年(2027年)の日程はまだ発表されていません(2026年11月21日時点)。過去5回はすべて5月の第3日曜日で、令和8年の申込は1月5日〜22日でした。</p>
+    <h3>試験の形と合格点は?</h3><p>五肢択一28問・3時間(13時30分〜16時30分)。1問25点の700点満点で、450点以上(18問正解)が合格です(令和8年の受験案内)。</p>
+    <h3>どこまで無料?</h3><p>要点6節とその節の一問一答・音声講義、令和8年の過去問28問は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日までは500円、2027年1月1日から1,480円です。月額の課金はありません。</p>
+  </div>
+  <p class="note">試験を実施する国土地理院とは関係のない、非公式の学習教材です。過去問の出典は国土地理院ウェブサイト「<a href="https://www.gsi.go.jp/LAW/SHIKEN/past.html">測量士・測量士補試験の過去問</a>」(令和4〜8年の測量士補試験問題)で、当アプリが編集・加工して作成しています(公共データ利用規約1.0)。解説・一問一答・要点・音声講義は当アプリが独自に作成したものです。試験の形式は令和8年の受験案内によります。最新の情報は国土地理院の発表で確かめてください。</p>
+</div>
+<script>
+  document.getElementById("go").href = window.APP_GO;
+  if (/Android/.test(navigator.userAgent)) {
+    var g = document.getElementById("go");
+    if (window.ANDROID_READY) g.innerHTML = "Google Play で見る<small>令和8年の過去問28問は無料</small>";
+    else { g.removeAttribute("href"); g.className = "btn off"; g.innerHTML = "Android 版は Google Play の審査中です<small>公開したら、このページから進めます(iPhone 版は App Store で公開中)</small>"; }
+  }
+</script>
+</body>
+</html>
