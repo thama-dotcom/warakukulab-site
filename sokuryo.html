@@ -15,14 +15,12 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8613c'/%3E%3Ctext x='32' y='45' font-family='Helvetica,Arial' font-size='38' font-weight='700' fill='%23fff' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
 <script>
   // note などからのリンクは ?s=経路 を付けてここへ来る。押された数を経路ごとに数えてから
-  // iPhone は App Store へ(2026-11-21 iOS 公開。受け口は測量士補専用の sokuryo-telemetry)。
-  // Android は Play の審査中(11-21)なので、ANDROID_READY を true にするまではストアへ送らずページに残す(Play のページがまだ 404 のため)
+  // iPhone は App Store、Android は Google Play へ(2026-11-25 両方の公開を確認。受け口は測量士補専用の sokuryo-telemetry)。
   (function(){
     var GO = "https://sokuryo-telemetry.omegamon-watch.workers.dev/go";
-    window.ANDROID_READY = false;
     var m = location.search.match(/[?&]s=([a-z0-9_-]{1,40})/i);
     window.APP_GO = GO + "?s=" + (m ? m[1].toLowerCase() : "site");
-    if (m && (window.ANDROID_READY || !/Android/.test(navigator.userAgent))) location.replace(window.APP_GO);
+    if (m) location.replace(window.APP_GO);
   })();
 </script>
 <script type="application/ld+json">
@@ -142,11 +140,7 @@
 </div>
 <script>
   document.getElementById("go").href = window.APP_GO;
-  if (/Android/.test(navigator.userAgent)) {
-    var g = document.getElementById("go");
-    if (window.ANDROID_READY) g.innerHTML = "Google Play で見る<small>令和8年の過去問28問は無料</small>";
-    else { g.removeAttribute("href"); g.className = "btn off"; g.innerHTML = "Android 版は Google Play の審査中です<small>公開したら、このページから進めます(iPhone 版は App Store で公開中)</small>"; }
-  }
+  if (/Android/.test(navigator.userAgent)) document.getElementById("go").innerHTML = "Google Play で見る<small>令和8年の過去問28問は無料</small>";
 </script>
 </body>
 </html>
