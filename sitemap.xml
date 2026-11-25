@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://warakukulab.com/</loc><lastmod>2026-11-09</lastmod><priority>1.0</priority></url>
-<url><loc>https://warakukulab.com/cba</loc><lastmod>2026-11-09</lastmod><priority>0.9</priority></url>
-<url><loc>https://warakukulab.com/cba-shiken</loc><lastmod>2026-11-09</lastmod><priority>0.8</priority></url>
-<url><loc>https://warakukulab.com/cba-goukaku</loc><lastmod>2026-11-09</lastmod><priority>0.8</priority></url>
-<url><loc>https://warakukulab.com/cba-ichimon</loc><lastmod>2026-11-09</lastmod><priority>0.8</priority></url>
-<url><loc>https://warakukulab.com/app</loc><lastmod>2026-11-09</lastmod><priority>0.7</priority></url>
-<url><loc>https://warakukulab.com/takken</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority></url>
-<url><loc>https://warakukulab.com/privacy</loc><lastmod>2026-11-09</lastmod><priority>0.2</priority></url>
-<url><loc>https://warakukulab.com/takken-app-hikaku</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority></url>
-<url><loc>https://warakukulab.com/kantei</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority></url>
-<url><loc>https://warakukulab.com/takken-kikinagashi</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
-<url><loc>https://warakukulab.com/takken-app-2027</loc><lastmod>2026-11-16</lastmod><priority>0.8</priority></url>
-<url><loc>https://warakukulab.com/chousashi</loc><lastmod>2026-11-16</lastmod><priority>0.7</priority></url>
-<url><loc>https://warakukulab.com/sokuryo</loc><lastmod>2026-11-21</lastmod><priority>0.7</priority></url>
+  <url><loc>https://warakukulab.com/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/apps</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/app</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/cba</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/cba-shiken</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/cba-goukaku</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/cba-ichimon</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/takken</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/takken-app-hikaku</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/takken-kikinagashi</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/takken-app-2027</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/kantei</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/chousashi</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/sokuryo</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/ichiriku</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/kouku</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/rikugi</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/ichiriku-app-hikaku</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/kouku-app-hikaku</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/rikugi-app-hikaku</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://warakukulab.com/privacy</loc><lastmod>2026-11-25</lastmod></url>
 </urlset>

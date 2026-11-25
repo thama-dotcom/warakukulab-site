@@ -15,13 +15,13 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23e8613c'/%3E%3Ctext x='32' y='45' font-family='Helvetica,Arial' font-size='38' font-weight='700' fill='%23fff' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
 <script>
   // note などからのリンクは ?s=経路 を付けてここへ来る。押された数を経路ごとに数えてから App Store へ(受け口は一陸特専用の ichiriku-telemetry)。
-  // 2026-11-21: iOS は公開済み(11-19)。Android は 11-20 に Play の審査へ送ったところで、公開まではこのページに留める(Play のページがまだ無いため)
+  // 2026-11-25: iOS(11-19)・Android とも公開済み。受け口 /go が iPhone は App Store、Android は Google Play へ渡す
   (function(){
     var GO = "https://ichiriku-telemetry.omegamon-watch.workers.dev/go";
     var m = location.search.match(/[?&]s=([a-z0-9_-]{1,40})/i);
     window.APP_GO = GO + "?s=" + (m ? m[1].toLowerCase() : "site");
     window.IS_ANDROID = /Android/.test(navigator.userAgent);
-    if (m && !window.IS_ANDROID) location.replace(window.APP_GO);
+    if (m) location.replace(window.APP_GO);
   })();
 </script>
 <script type="application/ld+json">
@@ -85,12 +85,28 @@
   .faq p{font-size:14px; color:#33465a; margin-top:2px;}
   .note{margin-top:22px; font-size:12px; color:var(--faint); line-height:1.8;}
   .note a{color:var(--sub);}
+  .lead{margin-top:16px; font-size:14.5px; color:#33465a;}
+  .card ul a{color:var(--ink);}
+  .zus{display:flex; gap:12px; overflow-x:auto; margin-top:16px; padding-bottom:8px; -webkit-overflow-scrolling:touch; scroll-snap-type:x mandatory;}
+  .zus figure{margin:0; flex:none; width:min(300px, 82vw); scroll-snap-align:start;}
+  .zus img{display:block; width:100%; height:auto; border-radius:14px; border:1px solid var(--line); background:#fff;}
+  .zus figcaption, .shot1 figcaption{font-size:12.5px; color:var(--sub); margin-top:5px; line-height:1.55;}
+  .zuhint{font-size:12px; color:var(--faint); margin-top:2px;}
+  .feat{list-style:none; display:flex; flex-wrap:wrap; gap:6px; margin:14px 0 0; padding:0;}
+  .feat li{display:flex; align-items:center; gap:5px; font-size:12.5px; line-height:1.3; color:#2b3d4f; background:#eef3f6; border:1px solid #dbe4ea; border-radius:999px; padding:4px 10px 4px 7px;}
+  .feat svg{width:16px; height:16px; fill:none; stroke:#3d6478; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; flex:none;}
+  .hero2{display:flex; gap:14px; align-items:center;}
+  .hero2 .appic{width:72px; height:72px; border-radius:17px; border:1px solid var(--line); flex:none;}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div><h1>一陸特 過去問アプリ 2027｜第一級陸上特殊無線技士</h1><p class="sub">iPhone・Android 向け / Warakuku Lab</p></div>
+  <div class="hero2"><img class="appic" src="/hikaku/icon_6836097268.jpg" alt="" width="72" height="72" loading="lazy"><div><h1>一陸特 過去問アプリ 2027｜第一級陸上特殊無線技士</h1><p class="sub">iPhone・Android 向け / Warakuku Lab</p></div></div>
+  <p class="lead">第一級陸上特殊無線技士(一陸特)は、無線従事者の資格の1つで、陸上の無線局の多重無線設備(空中線電力500W以下・30MHz以上)などの技術操作ができます。試験は公益財団法人日本無線協会が行います。</p>
+  <ul class="feat" aria-label="このアプリでできること"><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><path d="M10 12h5M10 16h5"/></svg>過去問216問</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7" height="6" rx="1.5"/><rect x="14" y="14" width="7" height="6" rx="1.5"/><path d="M6.5 10v4.5a2 2 0 0 0 2 2H14"/><circle cx="17.5" cy="7" r="3"/></svg>図解</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6L8 10z"/><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/></svg>音声講義94本</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.5" cy="12" r="4"/><path d="M14 8l6 8M20 8l-6 8"/></svg>一問一答917問</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M10 3h4"/></svg>本番形式の模試</li></ul>
   <a class="btn" id="go" href="https://ichiriku-telemetry.omegamon-watch.workers.dev/go?s=site">App Store で見る<small>令和8年10月期Aの過去問36問は無料</small></a>
+  <div class="zus"><figure><img src="/zu/ichiriku_1.jpg" alt="一陸特アプリの要点の図: 直流回路: 直列と並列の電流の分かれ方" width="640" height="1015" loading="lazy"><figcaption>直流回路: 直列と並列の電流の分かれ方</figcaption></figure><figure><img src="/zu/ichiriku_2.jpg" alt="一陸特アプリの要点の図: 電波法: 無線局=無線設備+操作を行う者" width="640" height="812" loading="lazy"><figcaption>電波法: 無線局=無線設備+操作を行う者</figcaption></figure><figure><img src="/zu/ichiriku_3.jpg" alt="一陸特アプリの要点の図: 計算の準備: 接頭語は3桁ごとに変わる" width="640" height="898" loading="lazy"><figcaption>計算の準備: 接頭語は3桁ごとに変わる</figcaption></figure></div>
+  <p class="zuhint">アプリの要点の図(横に送れます)</p>
   <div class="card">
     <h2>できること</h2>
     <ul>
@@ -109,11 +125,24 @@
     <h3>試験の形と合格点は?</h3><p>無線工学24問・法規12問を合わせて3時間の多肢選択式(マークシート)。1問5点で、無線工学は120点中75点、法規は60点中40点が合格点です。電卓は使えません(試験案内に「電卓等の計算器具類も使用できません」)。</p>
     <h3>どこまで無料?</h3><p>令和8年10月期Aの1回分(36問)と、要点・一問一答の各科目の約1割は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日まではリリース記念の500円、2027年1月1日から1,480円です。月額の課金はありません。</p>
   </div>
+  <div class="card">
+    <h2>ほかの試験のアプリ</h2>
+    <ul>
+      <li><a href="/app">ビル経営管理士</a></li>
+      <li><a href="/takken">宅建(宅地建物取引士)</a></li>
+      <li><a href="/kantei">不動産鑑定士(短答式)</a></li>
+      <li><a href="/chousashi">土地家屋調査士</a></li>
+      <li><a href="/sokuryo">測量士補</a></li>
+      <li><a href="/kouku">航空無線通信士</a></li>
+      <li><a href="/rikugi">陸技(第一級・第二級陸上無線技術士)</a></li>
+    </ul>
+    <p style="margin-top:8px;font-size:13px"><a href="/apps">8本の一覧と、それぞれ何の資格か →</a></p>
+  </div>
   <p class="note">試験を実施する公益財団法人日本無線協会・総務省とは関係のない、非公式の学習教材です。過去問の出典は日本無線協会「<a href="https://www.nichimu.or.jp/kshiken/siken/index.html">試験問題と解答</a>」(第一級陸上特殊無線技士 令和8年2月期・6月期・10月期の無線工学・法規)。問題文は当アプリが書き起こし、解説は当アプリが独自に作成しています。試験の日程・手数料・電卓の扱いは日本無線協会の令和8年度の試験案内(2026年11月18日に確認)によります。最新の情報は日本無線協会の発表で確かめてください。</p>
 </div>
 <script>
   var g = document.getElementById("go"); g.href = window.APP_GO;
-  if (window.IS_ANDROID) { g.removeAttribute("href"); g.className = "btn off"; g.innerHTML = "Android 版は Google Play の審査中です<small>公開したら、このページから Google Play へ進めます</small>"; }
+  if (window.IS_ANDROID) g.innerHTML = "Google Play で見る<small>令和8年10月期Aの過去問36問は無料</small>";
 </script>
 </body>
 </html>

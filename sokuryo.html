@@ -86,12 +86,28 @@
   .faq p{font-size:14px; color:#33465a; margin-top:2px;}
   .note{margin-top:22px; font-size:12px; color:var(--faint); line-height:1.8;}
   .note a{color:var(--sub);}
+  .lead{margin-top:16px; font-size:14.5px; color:#33465a;}
+  .card ul a{color:var(--ink);}
+  .zus{display:flex; gap:12px; overflow-x:auto; margin-top:16px; padding-bottom:8px; -webkit-overflow-scrolling:touch; scroll-snap-type:x mandatory;}
+  .zus figure{margin:0; flex:none; width:min(300px, 82vw); scroll-snap-align:start;}
+  .zus img{display:block; width:100%; height:auto; border-radius:14px; border:1px solid var(--line); background:#fff;}
+  .zus figcaption, .shot1 figcaption{font-size:12.5px; color:var(--sub); margin-top:5px; line-height:1.55;}
+  .zuhint{font-size:12px; color:var(--faint); margin-top:2px;}
+  .feat{list-style:none; display:flex; flex-wrap:wrap; gap:6px; margin:14px 0 0; padding:0;}
+  .feat li{display:flex; align-items:center; gap:5px; font-size:12.5px; line-height:1.3; color:#2b3d4f; background:#eef3f6; border:1px solid #dbe4ea; border-radius:999px; padding:4px 10px 4px 7px;}
+  .feat svg{width:16px; height:16px; fill:none; stroke:#3d6478; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; flex:none;}
+  .hero2{display:flex; gap:14px; align-items:center;}
+  .hero2 .appic{width:72px; height:72px; border-radius:17px; border:1px solid var(--line); flex:none;}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div><h1>測量士補 過去問アプリ 2027｜計算問題・図解・音声講義</h1><p class="sub">iPhone・Android 向け / Warakuku Lab</p></div>
+  <div class="hero2"><img class="appic" src="/hikaku/icon_6836697346.jpg" alt="" width="72" height="72" loading="lazy"><div><h1>測量士補 過去問アプリ 2027｜計算問題・図解・音声講義</h1><p class="sub">iPhone・Android 向け / Warakuku Lab</p></div></div>
+  <p class="lead">測量士補は、測量法に基づく国家資格で、測量士が作った計画に従って測量をする技術者の資格です。試験は国土地理院が年1回行います。</p>
+  <ul class="feat" aria-label="このアプリでできること"><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/><path d="M10 12h5M10 16h5"/></svg>過去問140問</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7" height="6" rx="1.5"/><rect x="14" y="14" width="7" height="6" rx="1.5"/><path d="M6.5 10v4.5a2 2 0 0 0 2 2H14"/><circle cx="17.5" cy="7" r="3"/></svg>図解</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6L8 10z"/><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/></svg>音声講義56本</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.5" cy="12" r="4"/><path d="M14 8l6 8M20 8l-6 8"/></svg>一問一答485問</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M10 3h4"/></svg>本番形式</li></ul>
   <a class="btn" id="go" href="https://sokuryo-telemetry.omegamon-watch.workers.dev/go?s=site">App Store で見る<small>令和8年の過去問28問は無料</small></a>
+  <div class="zus"><figure><img src="/zu/sokuryo_1.jpg" alt="測量士補アプリの要点の図: 路線測量: カーブの名前 IP・BC・EC" width="640" height="1106" loading="lazy"><figcaption>路線測量: カーブの名前 IP・BC・EC</figcaption></figure><figure><img src="/zu/sokuryo_2.jpg" alt="測量士補アプリの要点の図: 計算の道具: sin・cos は辺の比" width="640" height="1543" loading="lazy"><figcaption>計算の道具: sin・cos は辺の比</figcaption></figure><figure><img src="/zu/sokuryo_3.jpg" alt="測量士補アプリの要点の図: 測量法: どれが「測量」に当たるか" width="640" height="986" loading="lazy"><figcaption>測量法: どれが「測量」に当たるか</figcaption></figure></div>
+  <p class="zuhint">アプリの要点の図(横に送れます)</p>
   <div class="card">
     <h2>できること</h2>
     <ul>
@@ -108,6 +124,19 @@
     <h3>次の試験はいつ?</h3><p>令和9年(2027年)の日程はまだ発表されていません(2026年11月21日時点)。過去5回はすべて5月の第3日曜日で、令和8年の申込は1月5日〜22日でした。</p>
     <h3>試験の形と合格点は?</h3><p>五肢択一28問・3時間(13時30分〜16時30分)。1問25点の700点満点で、450点以上(18問正解)が合格です(令和8年の受験案内)。</p>
     <h3>どこまで無料?</h3><p>要点6節とその節の一問一答・音声講義、令和8年の過去問28問は無料です。全部を使うのはアプリ内の買い切りで、2026年12月31日までは500円、2027年1月1日から1,480円です。月額の課金はありません。</p>
+  </div>
+  <div class="card">
+    <h2>ほかの試験のアプリ</h2>
+    <ul>
+      <li><a href="/app">ビル経営管理士</a></li>
+      <li><a href="/takken">宅建(宅地建物取引士)</a></li>
+      <li><a href="/kantei">不動産鑑定士(短答式)</a></li>
+      <li><a href="/chousashi">土地家屋調査士</a></li>
+      <li><a href="/ichiriku">一陸特(第一級陸上特殊無線技士)</a></li>
+      <li><a href="/kouku">航空無線通信士</a></li>
+      <li><a href="/rikugi">陸技(第一級・第二級陸上無線技術士)</a></li>
+    </ul>
+    <p style="margin-top:8px;font-size:13px"><a href="/apps">8本の一覧と、それぞれ何の資格か →</a></p>
   </div>
   <p class="note">試験を実施する国土地理院とは関係のない、非公式の学習教材です。過去問の出典は国土地理院ウェブサイト「<a href="https://www.gsi.go.jp/LAW/SHIKEN/past.html">測量士・測量士補試験の過去問</a>」(令和4〜8年の測量士補試験問題)で、当アプリが編集・加工して作成しています(公共データ利用規約1.0)。解説・一問一答・要点・音声講義は当アプリが独自に作成したものです。試験の形式は令和8年の受験案内によります。最新の情報は国土地理院の発表で確かめてください。</p>
 </div>

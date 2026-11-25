@@ -1,0 +1,35 @@
+# WARAKUKU LAB
+
+> 日本の資格試験の学習アプリ(iPhone・Android)を作っている開発スタジオです。各アプリは過去問・要点・図解・音声講義などで学べて、一部は無料、全部を使うのはアプリ内の買い切り(月額課金なし)です。どのアプリも、試験を実施する団体とは関係のない非公式の学習教材です。
+
+## 試験ごとのアプリ
+
+- [ビル経営管理士 の学習アプリ](https://warakukulab.com/app): ビル経営管理士は、オフィスビルなどの企画・立案、賃貸営業、管理・運営を担う専門家の資格で、一般財団法人日本ビルヂング経営センターが試験を行います。 入っているもの: 全9科目・90論点の要点、図解95枚、音声講義90本、オリジナル問題658問、3科目・各45分の本番形式の模擬試験。 App Store https://apps.apple.com/jp/app/id6817186618 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.bkq
+- [宅建(宅地建物取引士) の学習アプリ](https://warakukulab.com/takken): 宅地建物取引士(宅建士)は、不動産の売買や賃貸の取引で、重要事項の説明などを行う国家資格です。試験は一般財団法人不動産適正取引推進機構が行います。 入っているもの: 本試験の過去問12回分・600問、4科目・170章の要点と相関図、音声講義170本、オリジナル問題1,071問、模擬試験3回分。 App Store https://apps.apple.com/jp/app/id6832773402 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.takken
+- [不動産鑑定士(短答式) の学習アプリ](https://warakukulab.com/kantei): 不動産鑑定士は、土地や建物の適正な価格を判定する「鑑定評価」を行う国家資格です。試験は国土交通省の土地鑑定委員会が行い、短答式と論文式があります。 入っているもの: 短答式の過去問5年分・400問、肢別の一問一答1,871問、要点192節、図解74本、音声講義192本。 App Store https://apps.apple.com/jp/app/id6834447111 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.kantei
+- [土地家屋調査士 の学習アプリ](https://warakukulab.com/chousashi): 土地家屋調査士は、土地や建物の表示に関する登記のための調査・測量と、登記の申請手続きを行う国家資格です。試験は法務省が行います。 入っているもの: 午後の部の多肢択一式の過去問5年分・100問(ア〜オの記述500個すべてに解説)、肢別の一問一答499問、要点68節、音声講義68本。 App Store https://apps.apple.com/jp/app/id6834993286 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.chousashi
+- [測量士補 の学習アプリ](https://warakukulab.com/sokuryo): 測量士補は、測量法に基づく国家資格で、測量士が作った計画に従って測量をする技術者の資格です。試験は国土地理院が年1回行います。 入っているもの: 令和4〜8年の過去問140問(全問解説)、図でつかむ要点56節、音声講義56本、一問一答485問。 App Store https://apps.apple.com/jp/app/id6836697346 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.sokuryo
+- [一陸特(第一級陸上特殊無線技士) の学習アプリ](https://warakukulab.com/ichiriku): 第一級陸上特殊無線技士(一陸特)は、無線従事者の資格の1つで、陸上の無線局の多重無線設備(空中線電力500W以下・30MHz以上)などの技術操作ができます。試験は公益財団法人日本無線協会が行います。 入っているもの: 令和8年の過去問6回・216問(全問解説・計算は検算つき)、本番と同じ3時間の模試、要点94節、一問一答917問、音声講義94本。 App Store https://apps.apple.com/jp/app/id6836097268 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.ichiriku
+- [航空無線通信士 の学習アプリ](https://warakukulab.com/kouku): 航空無線通信士(航空通)は、航空機に開設する無線局や航空局の無線設備の操作ができる無線従事者の資格です。パイロットを目指す人が受けることの多い資格で、試験は公益財団法人日本無線協会が行います。 入っているもの: 令和8年2月期・8月期の法規・無線工学の過去問68問(全問解説)、図でつかむ要点78節、一問一答571問、音声講義78本。 App Store https://apps.apple.com/jp/app/id6836359676 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.kouku
+- [陸技(第一級・第二級陸上無線技術士) の学習アプリ](https://warakukulab.com/rikugi): 陸上無線技術士(陸技)は、放送局など陸上の無線局の無線設備の技術操作を行う無線従事者の資格で、第一級(一陸技)と第二級(二陸技)があります。試験は公益財団法人日本無線協会が行います。 入っているもの: 令和4〜8年の7期から過去問44回分・1,050問(全問解説)、図が主役の要点112節、音声講義112本、一問一答。 App Store https://apps.apple.com/jp/app/id6837708521 / Google Play https://play.google.com/store/apps/details?id=com.warakukulab.rikugi
+
+## 試験の解説ページ
+
+- [ビル経営管理士 試験対策](https://warakukulab.com/cba): 試験の基本と無料の解説記事
+- [ビル経営管理士 試験日・申込・合格発表](https://warakukulab.com/cba-shiken)
+- [ビル経営管理士 合格率・合格点・難易度](https://warakukulab.com/cba-goukaku)
+- [ビル経営管理士 一問一答](https://warakukulab.com/cba-ichimon): このサイトでそのまま解ける○×問題
+- [宅建アプリのおすすめ比較](https://warakukulab.com/takken-app-hikaku)
+- [聞き流しで勉強できる宅建アプリ](https://warakukulab.com/takken-kikinagashi)
+- [2027年度向けの宅建アプリ](https://warakukulab.com/takken-app-2027)
+- [一陸特の対策アプリの比べ方](https://warakukulab.com/ichiriku-app-hikaku)
+- [航空無線通信士の対策アプリの比べ方](https://warakukulab.com/kouku-app-hikaku)
+- [陸技(一陸技・二陸技)の対策アプリの比べ方](https://warakukulab.com/rikugi-app-hikaku)
+
+## その他
+
+- [アプリの一覧](https://warakukulab.com/apps)
+- [プライバシーポリシー](https://warakukulab.com/privacy)
+- お問い合わせ: contact@warakukulab.com
+
+(この案内は 2026-11-25 時点の内容です)

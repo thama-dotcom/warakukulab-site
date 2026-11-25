@@ -41,9 +41,64 @@
   .card h2{font-size:15px; margin-bottom:6px;}
   .card ul{padding-left:1.2em; font-size:14.5px; color:#33465a;}
   .card li{margin:3px 0;}
+  .faq h3{font-size:14.5px; margin-top:14px; line-height:1.6;}
+  .faq h3:first-of-type{margin-top:4px;}
+  .faq p{font-size:14px; color:#33465a; margin-top:2px;}
   .note{margin-top:22px; font-size:12px; color:var(--faint); line-height:1.8;}
   .back{display:inline-block; margin-top:20px; color:var(--sub); font-size:13px;}
+  .lead{margin-top:16px; font-size:14.5px; color:#33465a;}
+  .card ul a{color:var(--ink);}
+  .zus{display:flex; gap:12px; overflow-x:auto; margin-top:16px; padding-bottom:8px; -webkit-overflow-scrolling:touch; scroll-snap-type:x mandatory;}
+  .zus figure{margin:0; flex:none; width:min(300px, 82vw); scroll-snap-align:start;}
+  .zus img{display:block; width:100%; height:auto; border-radius:14px; border:1px solid var(--line); background:#fff;}
+  .zus figcaption, .shot1 figcaption{font-size:12.5px; color:var(--sub); margin-top:5px; line-height:1.55;}
+  .zuhint{font-size:12px; color:var(--faint); margin-top:2px;}
+  .feat{list-style:none; display:flex; flex-wrap:wrap; gap:6px; margin:14px 0 0; padding:0;}
+  .feat li{display:flex; align-items:center; gap:5px; font-size:12.5px; line-height:1.3; color:#2b3d4f; background:#eef3f6; border:1px solid #dbe4ea; border-radius:999px; padding:4px 10px 4px 7px;}
+  .feat svg{width:16px; height:16px; fill:none; stroke:#3d6478; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; flex:none;}
+  .hero2{display:flex; gap:14px; align-items:center;}
+  .hero2 .appic{width:72px; height:72px; border-radius:17px; border:1px solid var(--line); flex:none;}
 </style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "ビル経営管理士とは?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "ビル経営管理士は、オフィスビルなどの企画・立案、賃貸営業、管理・運営を担う専門家の資格で、一般財団法人日本ビルヂング経営センターが試験を行います。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "2026年度の試験はいつ?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "3科目受験(ビル経営管理講座の修了者・記述式免除)は12月6日(日)〜12日(土)のうち予約した1日で、全国約300会場の CBT です。4科目受験は12月5日(土)です。合格発表は2027年1月29日(金)です。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "アプリに入っているものは?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "全9科目・90論点の要点、図解95枚、音声講義90本、オリジナル問題658問、3科目・各45分の本番形式の模擬試験。"
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "どこまで無料?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "全9科目の第1章は無料で使えます。残りはアプリ内の買い切りで、月額の課金はありません。"
+   }
+  }
+ ]
+}
+</script>
 </head>
 <body>
 <div class="wrap">
@@ -51,7 +106,11 @@
     <img src="/app-icon.png" alt="アプリのアイコン">
     <div><h1>ビル経営管理士 頻出攻略｜一問一答×要点</h1><p class="sub">iPhone・iPad 向け / Warakuku Lab</p></div>
   </div>
+  <p class="lead">ビル経営管理士は、オフィスビルなどの企画・立案、賃貸営業、管理・運営を担う専門家の資格で、一般財団法人日本ビルヂング経営センターが試験を行います。</p>
+  <ul class="feat" aria-label="このアプリでできること"><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="7" height="6" rx="1.5"/><rect x="14" y="14" width="7" height="6" rx="1.5"/><path d="M6.5 10v4.5a2 2 0 0 0 2 2H14"/><circle cx="17.5" cy="7" r="3"/></svg>図解</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10v4h4l5 4V6L8 10z"/><path d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/></svg>音声講義90本</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7.5" cy="12" r="4"/><path d="M14 8l6 8M20 8l-6 8"/></svg>オリジナル問題658問</li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M10 3h4"/></svg>模試3科目</li></ul>
   <a class="btn" id="go" href="https://bkq-telemetry.omegamon-watch.workers.dev/go?s=site">App Store で見る<small>全9科目の第1章は無料</small></a>
+  <div class="zus"><figure><img src="/zu/bkq_1.jpg" alt="ビル経営管理士アプリの要点の図: 空調設備: 熱源から各室へ冷温水が回る流れ" width="640" height="971" loading="lazy"><figcaption>空調設備: 熱源から各室へ冷温水が回る流れ</figcaption></figure><figure><img src="/zu/bkq_2.jpg" alt="ビル経営管理士アプリの要点の図: 建築基準法: 道路斜線は反対側の境界線から" width="640" height="644" loading="lazy"><figcaption>建築基準法: 道路斜線は反対側の境界線から</figcaption></figure><figure><img src="/zu/bkq_3.jpg" alt="ビル経営管理士アプリの要点の図: 不動産証券化: シニア・メザニン・エクイティの順に配る" width="640" height="1030" loading="lazy"><figcaption>不動産証券化: シニア・メザニン・エクイティの順に配る</figcaption></figure></div>
+  <p class="zuhint">アプリの要点の図(横に送れます)</p>
   <div class="card">
     <h2>できること</h2>
     <ul>
@@ -60,6 +119,26 @@
       <li>オリジナル問題658問。3回正解した問題は「卒業」</li>
       <li>3科目・各45分の本番形式の模擬試験</li>
     </ul>
+  </div>
+  <div class="card faq">
+    <h2>よくある質問</h2>
+    <h3>ビル経営管理士とは?</h3><p>ビル経営管理士は、オフィスビルなどの企画・立案、賃貸営業、管理・運営を担う専門家の資格で、一般財団法人日本ビルヂング経営センターが試験を行います。</p>
+    <h3>2026年度の試験はいつ?</h3><p>3科目受験(ビル経営管理講座の修了者・記述式免除)は12月6日(日)〜12日(土)のうち予約した1日で、全国約300会場の CBT です。4科目受験は12月5日(土)です。合格発表は2027年1月29日(金)です。</p>
+    <h3>アプリに入っているものは?</h3><p>全9科目・90論点の要点、図解95枚、音声講義90本、オリジナル問題658問、3科目・各45分の本番形式の模擬試験。</p>
+    <h3>どこまで無料?</h3><p>全9科目の第1章は無料で使えます。残りはアプリ内の買い切りで、月額の課金はありません。</p>
+  </div>
+  <div class="card">
+    <h2>ほかの試験のアプリ</h2>
+    <ul>
+      <li><a href="/takken">宅建(宅地建物取引士)</a></li>
+      <li><a href="/kantei">不動産鑑定士(短答式)</a></li>
+      <li><a href="/chousashi">土地家屋調査士</a></li>
+      <li><a href="/sokuryo">測量士補</a></li>
+      <li><a href="/ichiriku">一陸特(第一級陸上特殊無線技士)</a></li>
+      <li><a href="/kouku">航空無線通信士</a></li>
+      <li><a href="/rikugi">陸技(第一級・第二級陸上無線技術士)</a></li>
+    </ul>
+    <p style="margin-top:8px;font-size:13px"><a href="/apps">8本の一覧と、それぞれ何の資格か →</a></p>
   </div>
   <p class="note">2026年4月1日時点の法令で作っています。試験を実施する団体とは関係のない、非公式の学習教材です。問題はすべて独自に作成したもので、実際の試験問題は含みません。iPhone は App Store、Android は Google Play で配信しています。</p>
   <a class="back" href="/cba">← ビル経営管理士 試験対策のページへ</a>
